@@ -45,3 +45,12 @@ The application supports:
 - Razor Views
 - SQL Server LocalDB
 - Git and GitHub
+## Detailed Testing Checklist
+
+- [ ] Create a new movie and save it.
+- [ ] Confirm the movie appears in the movie list.
+- [ ] Open the Edit page and change the movie details.
+- [ ] Confirm the changes are saved.
+- [ ] Open the Delete page for a movie.
+- [ ] Confirm deletion and verify the movie is removed.
+- [ ] Check that the application displays validation errors for invalid input.
