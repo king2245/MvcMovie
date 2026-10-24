@@ -116,3 +116,11 @@ The application uses SQL Server LocalDB to store movie information. Entity Frame
 I used database migrations to create and update the database structure. The connection string is configured in `appsettings.json`.
 
 Before running the application on another computer, make sure SQL Server LocalDB is installed and the required Entity Framework Core packages are available.
+
+## 12. How to Run the Application
+
+To run the project on my computer, I open the `MvcMovie.sln` solution in Visual Studio and select the `https` launch profile.
+
+I make sure the required packages are restored and SQL Server LocalDB is available. I then run the application and test the movie list, Create, Edit, and Delete pages.
+
+I also use `dotnet build` in Developer PowerShell to check that the project compiles successfully.
