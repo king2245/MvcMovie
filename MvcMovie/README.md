@@ -108,3 +108,11 @@ The database must be configured correctly, and SQL Server LocalDB must be availa
 My project is available on GitHub:
 
 https://github.com/king2245/MvcMovie
+
+## 11. Database Setup and Configuration
+
+The application uses SQL Server LocalDB to store movie information. Entity Framework Core connects the `Movie` model to the database through `MovieDbContext`.
+
+I used database migrations to create and update the database structure. The connection string is configured in `appsettings.json`.
+
+Before running the application on another computer, make sure SQL Server LocalDB is installed and the required Entity Framework Core packages are available.
