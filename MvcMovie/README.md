@@ -124,3 +124,11 @@ To run the project on my computer, I open the `MvcMovie.sln` solution in Visual 
 I make sure the required packages are restored and SQL Server LocalDB is available. I then run the application and test the movie list, Create, Edit, and Delete pages.
 
 I also use `dotnet build` in Developer PowerShell to check that the project compiles successfully.
+
+## 13. What I Learned
+
+While building this project, I learned how the main parts of an ASP.NET Core MVC application work together.
+
+I practised creating a model, connecting it to a database with Entity Framework Core, writing controller actions, and building Razor views.
+
+I also learned how to use database migrations and GitHub to keep track of my work. Testing the Create, Read, Update, and Delete features helped me understand how a web application manages data.
